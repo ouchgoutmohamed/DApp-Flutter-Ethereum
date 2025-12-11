@@ -1,0 +1,17 @@
+{
+  "name": "tp8-dapp",
+  "version": "1.0.0",
+  "description": "Flutter DApp with Ethereum Smart Contracts",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "keywords": ["ethereum", "truffle", "flutter", "dapp"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}

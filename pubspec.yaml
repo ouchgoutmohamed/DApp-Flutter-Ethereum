@@ -1,0 +1,27 @@
+name: geeks_for_geeks
+description: A Flutter DApp for Ethereum Smart Contracts.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  web3dart: ^2.7.0
+  http: ^1.0.0
+  web_socket_channel: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - src/artifacts/HelloWorld.json
